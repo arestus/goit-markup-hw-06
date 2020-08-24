@@ -356,7 +356,28 @@
             </li>
           </ul>
         </div>
-        <div class="mailing-link"></div>
+        <div class="mailing-link">
+          <div>
+            <label class="label-footer" for="mail">
+              <b>Подпишитесь на рассылку</b>
+            </label>
+            <form class="mailing-form" autocomplete="off">
+              <input
+                class="input-footer"
+                name="mail"
+                placeholder="E-mail"
+                id="mail"
+                type="email"
+              />
+              <button type="submit" class="button-mailing">
+                Подписаться
+                <svg class="send-button">
+                  <use href="./images/symbol-defs.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
