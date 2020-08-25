@@ -1054,8 +1054,8 @@ advantages */
   position: absolute;
   padding: 0;
   border: 0;
-  height: 1px;
-  width: 1px;
+  height: 0;
+  width: 0;
   overflow: hidden;
 }
 
